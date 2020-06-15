@@ -41,9 +41,7 @@ img {
 .hero {
   height: 600px;
   padding-top: 200px;
-
   background-color: var(--hero-grey-color);
-
   text-align: center;
 }
 .hero-title {
