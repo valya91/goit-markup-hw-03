@@ -39,8 +39,8 @@ img {
 
 /* Hero */
 .hero {
+  height: 600px;
   padding-top: 200px;
-  padding-bottom: 200px;
 
   background-color: var(--hero-grey-color);
 
@@ -49,7 +49,7 @@ img {
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
-  color: var(--title-text-color);
+  color: var(--additional-text-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -95,7 +95,8 @@ img {
   width: 270px;
   margin-right: 30px;
 }
-.feature-list.item: last-child {
+
+.feature-list .item:last-child {
   margin-right: 0px;
 }
 .feature-list .image-link {
@@ -200,12 +201,16 @@ img {
 
 .client-list {
   display: flex;
-  margin: 0px -15px;
   padding-left: 0px;
 }
+
 .client-list .item {
   width: 170px;
-  margin: 0px 15px;
+  margin-right: 30px;
+}
+
+.client-list .item:last-child {
+  margin-right: 0px;
 }
 
 /* Button */

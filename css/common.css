@@ -118,12 +118,13 @@ body {
 .page-footer {
   background-color: var(--footer-grey-color);
 }
-.container.footer {
+.footer.container {
   padding-top: 45px;
   padding-bottom: 28px;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .logo-link.inverse {
   color: var(--additional-text-color);
@@ -189,6 +190,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+.subscribe {
+  color: var(--additional-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 
 .copyright {
   margin-top: 0px;
@@ -200,7 +209,6 @@ body {
   line-height: 2;
 
   text-align: center;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
 
   color: var(--footer-text-color);
 }
